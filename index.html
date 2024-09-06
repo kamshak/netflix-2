@@ -5,39 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix 2</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="bg-image" style="background-image: url(NG-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_1bda9ac8-6081-44af-8bb3-eb7bf153b606_small.jpg); height: 90vh;">
-    <div class="container d-flex justify-content-between ">
-       <h2 class="row text-white my-5">NETFLIX</h2>
+    <div class="container d-flex justify-content-between mx-5 ">
+       <h2 class="row  my-5 ">NETFLIX</h2>
        <button class="btn btn-danger my-5">Sign In</button>
     </div>
-    <div class="container align-items-center  my-5 d-flex text-white justify-content-center" >
-        <h1 class=" mx-5 my-5 text-white ">Unlimited movies, TV shows, and more</h1>
-    </div>
-    <div class="col text-white align-items-center mx-5 my-5 d-flex text-white justify-content-center">
-        <p>Watch anywhere. Cancel anytime<br>Ready to watch? Enter your email to create or resrart your membership</p>
+    <div class="container align-items-center  my-5 text-white justify-content-center" >
+        <h1 class="  text-white lh-small ">Unlimited movies, TV shows, and more</h1>
+        <p class="star">Watch anywhere. Cancel anytime.</p>  
+        <p class="star">Ready to watch? Enter your email to create or resrart your membership.</p>
     </div>
     <div class="container">
-        <div class="d-flex justify-content-center ">
+        <div class="d-flex justify-content-center  ">
           <!-- Form -->
           <form class="">
             <div class="form-group ">
-              <input type="text" class="form-control" placeholder="Enter Email">
+              <label for="email"></label>
+              <input type="text" class="form-control py-3" placeholder="Enter Email">
             </div>
           </form>
           <!-- Button -->
-          <button type="submit" class="btn btn-danger ml-2">Get Started</button>
+          <a class="bit" href="#"> <p  class="bot"> Get Started > </p></a>
         </div>
       </div>
     </div>
     <aside>
     </aside>
-        <div class="container mt-5 p-3">
+        <div class="container-fluid bg-black text-white ">
             <div class="row">
               <div class="col-md-6 d-flex align-items-center">
-                <h1 class="my-5">Enjoy on your TV<br><p>Watch on Smarts TVs, playstation, Xbox,<br>Chromecast, Apple TV, Blue-ray players and<br>more</p></h1>
+                <h1 class="mx-5">Enjoy on your TV<br><p>Watch on Smarts TVs, playstation, Xbox,<br>Chromecast, Apple TV, Blue-ray players and<br>more</p></h1>
               </div>
               <div class="col-md-6">
                 <img src="./tv.png" alt="Example Image" class="img-fluid">
@@ -45,7 +46,7 @@
             </div>
           </div>
     <aside></aside>
-    <div class="container mt-5 p-3 ">
+    <div class="container-fluid bg-black text-white ">
         <div class="row">
           <div class="col-md-6">
             <img src="./mobile-0819.jpg" alt="Example Image" class="img-fluid">
@@ -56,15 +57,15 @@
         </div>
       </div>
     <aside></aside>
-    <div class="container mt-5 p-3">
+    <div class="container-fluid bg-black text-white p-3">
         <div class="row">
-          <div class="col-md-6 d-flex align-items-center">
-            <h1 class="my-5">Watch<br>everywhere<br><p>stream unlimited movies and TV,<br>on your phone, tablet,laptop,<br>and TV.</p></h1>
+          <div class="col-md-6 d-flex align-items-center my-5">
+            <h1 class="mx-5">Watch<br>everywhere<br><p>stream unlimited movies and TV,<br>on your phone, tablet,laptop,<br>and TV.</p></h1>
           </div>
         </div>
       </div>
     <aside></aside>
-    <div class="container mt-5 p-3">
+    <div class="container-fluid bg-black text-white py-5 p-3 d-flex justify-content-center">
         <div class="row">
             <div class="col-md-6">
                 <img src="./AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png" alt="Example Image" class="img-fluid">
@@ -75,70 +76,117 @@
         </div>
     </div>
     <aside></aside>
-    <div class="container">
-        <div class="row">
-            <h1 class="d-flex justify-content-center ">Frequently Asked Questions</h1>
+    <div class="classic">
+      <h1 class="d-flex justify-content-center ">Frequently Asked Questions</h1>
+      <section style="display: flex;flex-direction: column; width: 100%; align-items: center;">
+
+
+        <div class="faq">
+          <div class="question">
+              <p>What is Netflix?</p>
+              <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="answer">
+              <P>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.<br></br>
+
+                You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</P>
+          </div>
+          
+      </div>
+
+
+      <div class="faq">
+          <div class="question">
+              <p>How much does Netflix cost?<p>
+                <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="answer">
+              <P>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₦2,200 to ₦7,000 a month. No extra costs, no contracts.</P>
+          </div>
+          
+      </div>
+
+
+
+      <div class="faq">
+          <div class="question">
+              <p>Where can i watch?<p>
+                <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="answer">
+              <P>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.<br></br>
+
+                You can also download your favorite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+                </P>
+          </div>
+          
+      </div>
+
+
+      <div class="faq">
+        <div class="question">
+            <p>how do i cancel?<p>
+            <i class="fa-solid fa-plus"></i>
         </div>
-        <div class="col">
-            <div class="row">
-                <div class="alert alert-secondary alert-dismissible fade show bg-dark text-white" role="alert">
-                    What is Netflix
-                <div type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></div>
-            </div>
-            <div class="col">
-                <div class="row">
-                    <div class="alert alert-secondary alert-dismissible fade show bg-dark text-white" role="alert">
-                        What is Netflix?
-                    <div type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="alert alert-secondary alert-dismissible fade show bg-dark text-white" role="alert">
-                            How much does Netfkix cost?
-                        <div type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></div>
-                    </div>
-                    <div class="col">
-                        <div class="row">
-                            <div class="alert alert-secondary alert-dismissible fade show bg-dark text-white" role="alert">
-                                Where can i watch?
-                            <div type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></div>
-                        </div>
-                        <div class="col">
-                            <div class="row">
-                                <div class="alert alert-secondary alert-dismissible fade show bg-dark text-white" role="alert">
-                                    What can i watch on Netflix?
-                                <div type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></div>
-                            </div>
-                            <div class="col">
-                                <div class="row">
-                                    <div class="alert alert-secondary alert-dismissible fade show bg-dark text-white" role="alert">
-                                        Is Netflis good for kids?
-                                    <div type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></div>
-                                </div>
+        <div class="answer">
+            <P>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</P>
         </div>
-    </div>
-    <p class="d-flex justify-content-center">Ready to watch? Enter your email to create or restart your membership.</p>
-    <div class="container my-5">
-        <div class="d-flex justify-content-center ">
+        
+      </div>
+
+
+      <div class="faq">
+        <div class="question">
+            <p>What can i watch on Netflix?<p>
+              <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="answer">
+            <P>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</P>
+        </div>
+        
+      </div>
+
+
+      <div class="faq">
+        <div class="question">
+            <p>Is Netflix good  for kids?<p>
+              <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="answer">
+            <P>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.<br></br>
+
+              Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</P>
+        </div>
+        
+      </div>
+      </section>
+
+      <P class="rin">Ready to watch? Enter your email to create or start your membership.</P>
+      <div class="container">
+        <div class="d-flex justify-content-center  ">
           <!-- Form -->
           <form class="">
             <div class="form-group ">
-              <input type="text" class="form-control" placeholder="Enter Email">
+              <label for="email"></label>
+              <input type="text" class="form-control py-3" placeholder="Enter Email">
             </div>
           </form>
           <!-- Button -->
-          <button type="submit" class="btn btn-danger ml-2">Get Started</button>
+          <a class="bit" href="#"> <p  class="bot"> Get Started > </p></a>
         </div>
       </div>
     </div>
+    </div>
 
     <aside></aside>
-    <div class="container d-flex my-5" style="width: 100%;">
+    <div class="adele">
+      <div class="container text-white   d-flex  justify-content-center align- ">
         <div class="row">
-            <div class="col">
-                <p>
-                    <a href="#">Questions? Contact us.</a>  
-                  </p>
+            <p>
+                <a href="#">Questions? Contact us.</a>  
+              </p>
+              <div class="row"></div>
+            <div class="col ">
                   <p>
                       <a href="#">FAQ</a>  
                   </p>
@@ -176,7 +224,7 @@
                       <a href="#">Ways to Watch</a>  
                   </p>
                   <p>
-                      <a href="#">Corporate information</a>  
+                      <a  href="#">Corporate information</a>  
                   </p>
                   <p>
                       <a href="#">Only on Netfkix</a>  
@@ -184,7 +232,7 @@
             </div>
             <div class="col">
                 <p>
-                    <a href="#">Media Center</a>  
+                    <a  href="#">Media Center</a>  
                   </p>
                   <p>
                       <a href="#">Term of Use</a>  
@@ -196,6 +244,12 @@
             </div>
         </div>
 
-        <p>Netflix Nigeria</p>
+        <p class="dot d-flex mx-5">Netflix Nigeria</p>
+    </div>
+
+        <script>
+
+
+        </script>
 </body>
 </html>

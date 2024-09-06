@@ -1,14 +1,138 @@
 p{
     font-size: 20px;
 }
+h2{
+    color: red;
+    font-family: 'Gothic , ' sans-serif ;
+}
+h1{
+    padding-top: 6%;
+}
+.bot{
+    border: 2px solid red;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top: 15%;
+    border-radius: 7%;
+    width: 150%;
+    align-items: center;
+    height: 9vh;
+}
+form{
+    
+    height: 9vh;
+}
+.bit{
+    text-decoration: none;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+.pics{
+    height: 15vh;
+}
 button{
     margin-left: 1%;
 }
 aside{
-    background-color: black;
-    height: 2vh;
+    background-color: rgb(48, 47, 47);
+    height: 1vh;
     width: 100%;
 }
+h1{
+    font-size: 52px;
+    
+    font-family: sans-serif;
+    font-weight: bold;
+}
 a{
-    color: black;
+    text-decoration: underline;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.dot{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/* .section{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+    
+} */
+ .classic{
+    background-color: #000;
+ }
+
+.faq{
+    max-width: 700px;
+    margin-top: 2px;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+}
+.question{
+    display: flex;
+    background-color: #2d2d2d;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+.question:hover{
+    background-color: #545454;
+}
+.question p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+h1{
+    color: white;
+}
+
+.answer{
+    max-height: 0px;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+    transition: max-height .3s ease-in-out;
+}
+.faq.active .answer{
+    max-height: 300px;
+}
+.answer p{
+    background-color: #2d2d2d;
+    font-size: 20px;
+    padding: 3%;
+    border-top: 1px solid #000;
+}   
+
+.adele{
+    background-color: #000;
+    padding-top: 5%;
+}
+.dot{
+    color: #fff;
+}.rin{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
 }
