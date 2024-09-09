@@ -8,6 +8,10 @@ h2{
 h1{
     padding-top: 6%;
 }
+.btn{
+    width: 7%;
+    margin-right: 4%;
+}
 .bot{
     border: 2px solid red;
     background-color: red;
@@ -17,9 +21,10 @@ h1{
     font-weight: bold;
     margin-top: 15%;
     border-radius: 7%;
-    width: 150%;
+    width: 100%;
     align-items: center;
-    height: 9vh;
+    height: 8.5vh;
+    padding-top: 2px;
 }
 form{
     
